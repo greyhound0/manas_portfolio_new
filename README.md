@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Rimsha - Portfolio 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Version 1.0
 
-## Available Scripts
+My personal portfolio which features some of my github projects, future learning and technical skills.
 
-In the project directory, you can run:
+#### Live Version: [Portfolio](https://rimswebdev-portfolio.vercel.app/)
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project was built using these technologies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ReactJS
+- React Router DOM
+- React Icons
+- EmailJS
+- Bootstrap v5
+- Lottiefiles
+- Mobile First Workflow
+- Vercel
+- Adobe Illustrator
 
-### `npm test`
+## Features and Pages 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Following are included features in project. (Only few are yet to be implemented)
 
-### `npm run build`
+1. [x] Responsive & user friendly interface
+2. [x] Navigation Bar to have access to all other pages
+3. [x] Creating navicon using Ai and navicon generator (navbar brand)
+4. [x] Home page - link to work
+5. [x] About page - Skills & Resume/CV
+6. [x] Enable anyone to download resume
+7. [x] Projects Page - In progress and few completed projects
+8. [x] Each Project Card - Name, description with link to Live version and source code
+9. [x] Contact Button/Page - Anyone can send direct email
+10. [x] Integrating EmailJS and react to enable anyone to send email/query through contact form
+11. [x] Integrating Lottiefiles in react to include cool animations
+12. [x] Add animations on contact and home page
+13. [ ] Apply word animation on highlighted words - create in CSS3 or using hooks
+14. [ ] Add Social media icons and links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React Router DOM: `npm i react-router-dom`
+- React Icons: `npm i react-icons`
+- EmailJS: `npm i @emailjs\browser`
+- LottieFiles: `npm install --save lottie-react`
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Useful Resources
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- <a href="https://lottiefiles.com/">LottieFiles</a> - For lightweight, scalable animations
+- <a href="https://www.emailjs.com/docs/introduction/how-does-emailjs-work/">EmailJS Docs</a> - Great way to learn how does EmailJS works?
+- <a href="https://www.favicon-generator.org/">Favicon Generator</a> - Helpful to create brand icon of logo you may have created in Adobe illustrator
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Getting Started with Create React App
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Create React App Globally: [Create React App](https://github.com/facebook/create-react-app)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`npx create-react-app app-name`
 
-### Code Splitting
+## Installation and Setup Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To get started you need to:
 
-### Analyzing the Bundle Size
+- Clone the project
+- npm install
+- Install listed dependencies
+- Scripts - npm start
+- Runs the app in the development mode. Open http://localhost:3000 to view it in the browser
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
