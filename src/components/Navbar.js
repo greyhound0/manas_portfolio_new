@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo.png";
 const Navbar = () => {
   return (
     <nav className="bg-light navbar navbar-expand-lg shadow-sm p-4">
@@ -12,8 +12,8 @@ const Navbar = () => {
             width="30"
             height="auto"
             className="d-inline-block align-text-top"
+            onClick={window.open("https://github.com/greyhound0")}
           />
-          <span className="ms-2 fw-bold">https://github.com/greyhound0</span>
         </div>
 
         <div className="">
