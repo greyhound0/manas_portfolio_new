@@ -2,8 +2,10 @@ import React from "react";
 import { useRef } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import emailjs from "@emailjs/browser";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
+  const navigate = useNavigate();
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,10 +21,12 @@ const Contact = () => {
       .then(
         () => {
           alert("Message successfully sent!");
-          window.location.reload(true);
+          navigate("/");
         },
         () => {
-          alert("Failed to send the message, please try again");
+          alert(
+            "Failed to send the message, please check the contact information on my Resume to contact me"
+          );
         }
       );
   };

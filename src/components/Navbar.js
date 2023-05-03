@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 import logo2 from "../assets/logo2.png";
 const Navbar = () => {
-  function NewTab() {
+  function rederictToGithub() {
     window.open("https://github.com/greyhound0", "_blank");
   }
-  function NewTab2() {
+  function rederictToLinkedin() {
     window.open("https://www.linkedin.com/in/manas-gupta-501313262/", "_blank");
   }
 
@@ -21,7 +21,7 @@ const Navbar = () => {
             width="35"
             height="auto"
             className="d-inline-block align-text-top"
-            onClick={() => NewTab()}
+            onClick={() => rederictToGithub()}
           />
 
           <img
@@ -31,7 +31,7 @@ const Navbar = () => {
             width="30"
             height="auto"
             className="d-inline-block align-text-top"
-            onClick={() => NewTab2()}
+            onClick={() => rederictToLinkedin()}
           />
         </div>
 
