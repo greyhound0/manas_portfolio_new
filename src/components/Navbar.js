@@ -6,14 +6,16 @@ const Navbar = () => {
     <nav className="bg-light navbar navbar-expand-lg shadow-sm p-4">
       <div className="container-fluid d-sm-flex flex-column flex-lg-row justify-content-center justify-content-lg-between">
         <div className="navbar-brand mb-4 mb-md-0 mb-lg-0">
-          <img
-            src={logo}
-            alt="logo"
-            width="30"
-            height="auto"
-            className="d-inline-block align-text-top"
-            onClick={window.open("https://github.com/greyhound0")}
-          />
+          <a href="https://github.com/greyhound0">
+            <img
+              src={logo}
+              alt="logo"
+              width="30"
+              height="auto"
+              className="d-inline-block align-text-top"
+              // onClick={window.open("https://github.com/greyhound0")}
+            />
+          </a>
         </div>
 
         <div className="">
