@@ -14,7 +14,7 @@ const Contact = () => {
         "service_m6ajnra",
         "template_fb2swea",
         form.current,
-        "Yne67kh2R8Ca2c1l2"
+        "UhVLaZCwOnWwEsqqq"
       )
       .then(
         () => {

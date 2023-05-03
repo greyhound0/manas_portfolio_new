@@ -9,7 +9,7 @@ const About = () => {
     <div className="container-fluid bg-light pt-5 d-flex flex-column align-items-center min-vh-100">
       <p className="text-center lead m-4">
         I'm a react web developer with 6 months of experience in web development
-        as a paid Inter in a Startup. I love creating responsive websites using
+        as an Intern in a Startup. I love creating responsive websites using
         ReactJS, JavaScript, HTML5, CSS3, Bootstrap & Github. I've done multiple
         small projects to learn basics and now doing more complex projects.
       </p>
@@ -63,13 +63,13 @@ const About = () => {
           className="m-2"
           style={{ width: "35", height: "35", color: "#7a14f5" }}
         />
-        <img
+        {/* <img
           className="ms-2"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
           alt="figma"
           width="30"
           height="35"
-        />
+        /> */}
       </p>
       <h3 className="pt-3 pb-2 custom-color">Currently Learning: </h3>
       <p className="lead fw-bold" style={{ color: "#53c1f2" }}>
