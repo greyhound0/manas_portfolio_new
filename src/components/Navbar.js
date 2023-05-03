@@ -1,9 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
+import logo2 from "../assets/logo2.png";
 const Navbar = () => {
   function NewTab() {
     window.open("https://github.com/greyhound0", "_blank");
+  }
+  function NewTab2() {
+    window.open("https://www.linkedin.com/in/manas-gupta-501313262/", "_blank");
   }
 
   return (
@@ -12,11 +16,22 @@ const Navbar = () => {
         <div className="navbar-brand mb-4 mb-md-0 mb-lg-0">
           <img
             src={logo}
+            style={{ cursor: "pointer" }}
             alt="logo"
             width="30"
             height="auto"
             className="d-inline-block align-text-top"
             onClick={() => NewTab()}
+          />
+
+          <img
+            src={logo2}
+            style={{ cursor: "pointer" }}
+            alt="logo"
+            width="30"
+            height="auto"
+            className="d-inline-block align-text-top"
+            onClick={() => NewTab2()}
           />
         </div>
 
