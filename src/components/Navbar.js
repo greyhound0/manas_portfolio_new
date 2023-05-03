@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="navbar-brand mb-4 mb-md-0 mb-lg-0">
           <img
             src={logo}
-            style={{ cursor: "pointer", marginRight: "5px" }}
+            style={{ cursor: "pointer", marginRight: "15px" }}
             alt="logo"
             width="35"
             height="auto"
