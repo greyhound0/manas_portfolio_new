@@ -16,9 +16,9 @@ const Navbar = () => {
         <div className="navbar-brand mb-4 mb-md-0 mb-lg-0">
           <img
             src={logo}
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", marginRight: "5px" }}
             alt="logo"
-            width="30"
+            width="35"
             height="auto"
             className="d-inline-block align-text-top"
             onClick={() => NewTab()}
