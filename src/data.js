@@ -2,6 +2,8 @@ import UDMS from "./assets/portfolioImages/UDMS.jpg";
 import typing_game from "./assets/portfolioImages/typing_game.jpg";
 import stepper_form from "./assets/portfolioImages/stepper-form.jpg";
 import Todo from "./assets/portfolioImages/todo.jpg";
+import chat_app from "./assets/portfolioImages/chat_app.jpg";
+import weather_app from "./assets/portfolioImages/weather_app.jpg";
 
 // in progress projects
 
@@ -9,6 +11,16 @@ import Todo from "./assets/portfolioImages/todo.jpg";
 // import landingPage from './assets/portfolioImages/url.jpg'
 
 const ProjectsData = [
+  {
+    id: "chat-app",
+    img: chat_app,
+    name: "Chat App",
+    stack: ["< React.js />", "< HTML5 />", "< CSS3 />", "< JavaScript />"],
+    live: "https://polite-buttercream-a2c5df.netlify.app/",
+    source: "https://github.com/greyhound0/chat-app",
+    description:
+      "A user would get a username and a password and can create a chat room to talk to another person in real-time.",
+  },
   {
     id: "UDMS",
     img: UDMS,
@@ -50,6 +62,17 @@ const ProjectsData = [
     source: "https://github.com/greyhound0/stepper-form",
     description:
       "A user would get enter their details on 3 steps that would be stored in local storage and displayed in a tabular manner to the user at the end",
+  },
+
+  {
+    id: "weather-app",
+    img: weather_app,
+    name: "Weather App",
+    stack: ["< React.js />", "< HTML5 />", "< CSS3 />", "< JavaScript />"],
+    live: "https://harmonious-scone-8eaa1c.netlify.app/",
+    source: "https://github.com/greyhound0/weather_app",
+    description:
+      "A user would get to enter the name of the place that user wants to know the weather of and would getin return the current temperature and weather condition.",
   },
 ];
 
