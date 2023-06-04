@@ -9,7 +9,7 @@ const About = () => {
     <div className="container-fluid bg-light pt-5 d-flex flex-column align-items-center min-vh-100">
       <p className="text-center lead m-4">
         I'm a react web developer with 1 year of experience in web development
-        as an Front-End Developer in a Startup. I love creating responsive
+        as a Front-End Developer in a Startup. I love creating responsive
         websites using ReactJS, JavaScript, HTML5, CSS3, Bootstrap & Github.
         I've done multiple small projects to learn basics and now doing more
         complex projects.
@@ -59,27 +59,12 @@ const About = () => {
           width="35"
           height="35"
         />
-
-        <FaBootstrap
-          className="m-2"
-          style={{ width: "35", height: "35", color: "#7a14f5" }}
-        />
-        {/* <img
-          className="ms-2"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-          alt="figma"
-          width="30"
-          height="35"
-        /> */}
       </p>
-      {/* <h3 className="pt-3 pb-2 custom-color">Currently Learning: </h3>
-      <p className="lead fw-bold" style={{ color: "#53c1f2" }}>
-        <SiFlutter
-          className="m-2"
-          style={{ width: "35", height: "35", color: "#53c1f2" }}
-        />
-        Flutter
-      </p> */}
+
+      <FaBootstrap
+        className="m-2"
+        style={{ width: "35", height: "35", color: "#7a14f5" }}
+      />
     </div>
   );
 };
