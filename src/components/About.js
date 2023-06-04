@@ -8,10 +8,11 @@ const About = () => {
   return (
     <div className="container-fluid bg-light pt-5 d-flex flex-column align-items-center min-vh-100">
       <p className="text-center lead m-4">
-        I'm a react web developer with 6 months of experience in web development
-        as an Intern in a Startup. I love creating responsive websites using
-        ReactJS, JavaScript, HTML5, CSS3, Bootstrap & Github. I've done multiple
-        small projects to learn basics and now doing more complex projects.
+        I'm a react web developer with 1 year of experience in web development
+        as an Front-End Developer in a Startup. I love creating responsive
+        websites using ReactJS, JavaScript, HTML5, CSS3, Bootstrap & Github.
+        I've done multiple small projects to learn basics and now doing more
+        complex projects.
       </p>
       <a
         href={resume}
@@ -71,14 +72,14 @@ const About = () => {
           height="35"
         /> */}
       </p>
-      <h3 className="pt-3 pb-2 custom-color">Currently Learning: </h3>
+      {/* <h3 className="pt-3 pb-2 custom-color">Currently Learning: </h3>
       <p className="lead fw-bold" style={{ color: "#53c1f2" }}>
         <SiFlutter
           className="m-2"
           style={{ width: "35", height: "35", color: "#53c1f2" }}
         />
         Flutter
-      </p>
+      </p> */}
     </div>
   );
 };

@@ -4,6 +4,8 @@ import stepper_form from "./assets/portfolioImages/stepper-form.jpg";
 import Todo from "./assets/portfolioImages/todo.jpg";
 import chat_app from "./assets/portfolioImages/chat_app.jpg";
 import weather_app from "./assets/portfolioImages/weather_app.jpg";
+import YT from "./assets/portfolioImages/youtube_clone.jpg";
+import ECOMM from "./assets/portfolioImages/ECOMM.jpg";
 
 // in progress projects
 
@@ -33,6 +35,28 @@ const ProjectsData = [
   },
 
   {
+    id: "YTCLONE",
+    img: YT,
+    name: "YouTube_Clone",
+    stack: ["< HTML5/CSS3 />", "< Javascript />", "< React.js />"],
+    live: "https://strong-trifle-e86d25.netlify.app/",
+    source: "https://github.com/greyhound0/youtube_clone",
+    description:
+      "A simplified youtube clone using a customized API that has a very basic functionality of selecting and playingthe videos that has PAGINATION & REACT_ROUTING",
+  },
+
+  {
+    id: "ECOMM",
+    img: ECOMM,
+    name: "E-Commerce Website",
+    stack: ["< HTML5/CSS3 />", "< Javascript />", "< React.js />"],
+    live: "https://aquamarine-rolypoly-fc99b4.netlify.app/",
+    source: "https://github.com/greyhound0/e_commerece_website",
+    description:
+      "The website displays a range of products that a user can add to cart which when opened shows the products,their quantity and the cart total. Used react-routing.",
+  },
+
+  {
     id: "Typing Game",
     img: typing_game,
     name: "Typing Game",
@@ -45,7 +69,7 @@ const ProjectsData = [
   {
     id: "todo",
     img: Todo,
-    name: "Cloud Storage with AWS Simple Storage Service",
+    name: "To-Do List",
     stack: ["< React.js />", "< HTML5/CSS3 />", "< Javascript />"],
     live: "https://sweet-narwhal-0fa2af.netlify.app/",
     source: "https://github.com/greyhound0/to-do",
