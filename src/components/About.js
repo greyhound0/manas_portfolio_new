@@ -14,6 +14,7 @@ const About = () => {
         I've done multiple small projects to learn basics and now doing more
         complex projects.
       </p>
+
       <a
         href={resume}
         download
