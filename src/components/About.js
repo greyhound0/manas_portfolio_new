@@ -8,11 +8,11 @@ const About = () => {
   return (
     <div className="container-fluid bg-light pt-5 d-flex flex-column align-items-center min-vh-100">
       <p className="text-center lead m-4">
-        I'm a react web developer with 1 year of experience in web development
-        as a Front-End Developer in a Startup. I love creating responsive
-        websites using ReactJS, JavaScript, HTML5, CSS3, Bootstrap & Github.
-        I've done multiple small projects to learn basics and now doing more
-        complex projects.
+        I'm a react developer with 1 year of experience in web development as a
+        Front-End Intern in a Startup and have started working as a Frontend
+        Developer in another compamy. I love creating responsive websites using
+        ReactJS, JavaScript, HTML5, CSS3, Bootstrap & Github. I've done multiple
+        small projects to learn basics and now doing more complex projects.
       </p>
 
       <a
