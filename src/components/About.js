@@ -2,16 +2,13 @@ import React from "react";
 import { FaBootstrap } from "react-icons/fa";
 import { SiFlutter } from "react-icons/si";
 
-import resume from "../assets/Manas_Gupta_Resume.pdf";
+import resume from "../assets/Manas_Gupta_updated_new_resume.pdf";
 
 const About = () => {
   return (
     <div className="container-fluid bg-light pt-5 d-flex flex-column align-items-center min-vh-100">
       <p className="text-center lead m-4">
-        I'm a react developer with 1 year of experience in web development as a
-        Front-End Developer in a product based company. I love creating responsive websites using
-        ReactJS, JavaScript, HTML5, CSS3, Bootstrap & Github. I've done multiple
-        small projects to learn basics and now doing more complex projects.
+   I am a React developer with two years of experience as a Front-End Developer in a product-driven company. I focus on building responsive and user-friendly web applications using ReactJS, JavaScript, HTML5, CSS3, and Bootstrap, while maintaining clean code with GitHub. Throughout my career, I have worked on a range of projects from foundational to more complex, continuously improving my skills and adapting to new technologies. I am committed to writing maintainable, efficient code that delivers an excellent user experience and supports business objectives.
       </p>
 
       <a
