@@ -2,7 +2,7 @@ import React from "react";
 import { FaBootstrap } from "react-icons/fa";
 import { SiFlutter } from "react-icons/si";
 
-import resume from "../assets/Manas_Gupta_updated_new_resume.pdf";
+import resume from "../assets/Manas_Gupta_updated_new_resume01.pdf";
 
 const About = () => {
   return (
